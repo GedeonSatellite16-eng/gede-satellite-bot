@@ -1,12 +1,13 @@
 {
   "name": "gede-satellite-bot",
   "version": "1.0.0",
+  "description": "Bot WhatsApp GEDE SATELLITE",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
-    "pino": "latest"
+    "whatsapp-web.js": "^1.26.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
